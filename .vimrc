@@ -6,6 +6,11 @@ syntax on
 filetype plugin indent on
 filetype plugin on
 
+set tabstop=4
+set expandtab
+set shiftwidth=4
+
+
 " navigate splits more easily
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
