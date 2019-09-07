@@ -1,0 +1,30 @@
+PROMPT='(%~) '
+
+function cs {
+    cd $@ && ls
+}
+function gs {
+    git remote -v
+    git status $@
+}
+function gca {
+    git commit add $@
+}
+function gcm {
+    git commit -m "$@"
+}
+function gcam {
+    git commit -am "$@"
+}
+function gpush {
+    git push $@
+}
+function gpus {
+    gpush $@
+}
+function gpull {
+    git pull $@
+}
+function gpul {
+    gpull $@
+}
